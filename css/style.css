@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*base style for body section*/
+    color: darkgray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header {
+    padding: 15px 30px;
+    background-color: black;    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: darkgrey;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: bisque;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline-flex;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: medium;
+}
